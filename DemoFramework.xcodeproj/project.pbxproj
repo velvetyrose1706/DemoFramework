@@ -15,7 +15,7 @@
 		6B47BB061D57276E0018C9E6 /* DemoFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DemoFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B47BB091D57276E0018C9E6 /* DemoFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoFramework.h; sourceTree = "<group>"; };
 		6B47BB0B1D57276E0018C9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B47BB111D57278B0018C9E6 /* Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		6B47BB111D57278B0018C9E6 /* Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Demo.swift; path = ../Demo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +32,6 @@
 		6B47BAFC1D57276E0018C9E6 = {
 			isa = PBXGroup;
 			children = (
-				6B47BB111D57278B0018C9E6 /* Demo.swift */,
 				6B47BB081D57276E0018C9E6 /* DemoFramework */,
 				6B47BB071D57276E0018C9E6 /* Products */,
 			);
@@ -49,6 +48,7 @@
 		6B47BB081D57276E0018C9E6 /* DemoFramework */ = {
 			isa = PBXGroup;
 			children = (
+				6B47BB111D57278B0018C9E6 /* Demo.swift */,
 				6B47BB091D57276E0018C9E6 /* DemoFramework.h */,
 				6B47BB0B1D57276E0018C9E6 /* Info.plist */,
 			);
@@ -286,6 +286,7 @@
 				6B47BB101D57276E0018C9E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
