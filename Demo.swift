@@ -14,4 +14,7 @@ public class Demo{
     public static func sayHi() {
         print("HI there")
     }
+    func vel_test_1() {
+    	print("vel_test_1")
+    }
 }
